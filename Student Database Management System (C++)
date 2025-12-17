@@ -1,0 +1,90 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+class Student {
+private:
+    int id;
+    string name;
+    float marks;
+
+public:
+    Student(int i, string n, float m) {
+        id = i;
+        name = n;
+        marks = m;
+    }
+
+    void display() {
+        cout << "ID: " << id
+             << ", Name: " << name
+             << ", Marks: " << marks << endl;
+    }
+
+    int getId() {
+        return id;
+    }
+};
+
+int main() {
+    vector<Student> students;
+    int choice;
+
+    do {
+        cout << "\n1. Add Student\n2. Display Students\n3. Exit\n";
+        cout << "Enter choice: ";
+        cin >> choice;
+
+        if (choice == 1) {
+            int id;
+            string name;
+            float marks;
+
+            cout << "Enter ID: ";
+            cin >> id;
+            cout << "Enter Name: ";
+            cin >> name;
+            cout << "Enter Marks: ";
+            cin >> marks;
+
+            students.push_back(Student(id, name, marks));
+        } 
+        else if (choice == 2) {
+            for (auto &s : students) {
+                s.display();
+            }
+        }
+
+    } while (choice != 3);
+
+    return 0;
+}
+
+
+
+
+# Student Database Management System (C++)
+
+## Description
+A console-based C++ application demonstrating Object-Oriented Programming
+concepts such as classes, objects, encapsulation, and STL containers.
+
+## Features
+- Add student records
+- Display student information
+- Menu-driven console interface
+
+## Concepts Used
+- Classes and Objects
+- Encapsulation
+- STL (vector)
+- Input/Output operations
+
+## How to Run
+g++ student_database.cpp -o studentdb
+./studentdb
+
+## Learning Outcome
+This project was developed as part of hands-on practice to strengthen C++
+programming and OOP fundamentals.
+
