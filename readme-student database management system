@@ -1,0 +1,24 @@
+# Student Database Management System (C++)
+
+## Description
+A console-based C++ application demonstrating Object-Oriented Programming
+concepts such as classes, objects, encapsulation, and STL containers.
+
+## Features
+- Add student records
+- Display student information
+- Menu-driven console interface
+
+## Concepts Used
+- Classes and Objects
+- Encapsulation
+- STL (vector)
+- Input/Output operations
+
+## How to Run
+g++ student_database.cpp -o studentdb
+./studentdb
+
+## Learning Outcome
+This project was developed as part of hands-on practice to strengthen C++
+programming and OOP fundamentals.
