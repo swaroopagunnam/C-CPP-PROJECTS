@@ -1,0 +1,24 @@
+# Device Health Monitoring System (C++)
+
+## Description
+A C++ console application that simulates basic health monitoring
+for an embedded device by checking temperature and voltage levels.
+
+## Features
+- Threshold-based monitoring
+- Warning generation for abnormal conditions
+- Object-Oriented design
+
+## Concepts Used
+- C++ classes and objects
+- Encapsulation
+- Conditional logic
+- Console I/O
+
+## How to Run
+g++ device_monitor.cpp -o device_monitor
+./device_monitor
+
+## Learning Outcome
+This project demonstrates system monitoring logic commonly used in
+embedded and medical device software.
