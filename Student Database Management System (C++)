@@ -63,7 +63,7 @@ int main() {
 
 
 
-# Student Database Management System (C++)
+/**# Student Database Management System (C++)
 
 ## Description
 A console-based C++ application demonstrating Object-Oriented Programming
@@ -86,5 +86,5 @@ g++ student_database.cpp -o studentdb
 
 ## Learning Outcome
 This project was developed as part of hands-on practice to strengthen C++
-programming and OOP fundamentals.
+programming and OOP fundamentals.**/
 
